@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo>a {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #0084ff;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    height: 800px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+.janela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: dodgerblue;
+    width: 600px;
+    height: 200px;
+
+}
+
+.sol {
+    height: 120px;
+    width: 120px;
+    background-color: rgb(251, 255, 0);
+    border-radius: 50%;
+
+}
+
+h1 {
+    text-align: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h3 {
+    text-align: center;
+    align-items: center;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    align-items: center;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.foot>p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.foot>p>a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot>p>a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .card {
+        width: 350px;
+        height: 700px;
+    }
+
+    .janela {
+        width: 350px;
+    }
+
+
+}
